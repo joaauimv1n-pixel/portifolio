@@ -5,20 +5,14 @@
     --main-color:#022b9cd7;
 }
 
-.sobre-cor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background-color: var(--primeira-color);
-}
-.heading-sobre{
-    text-align: center;
-    font-size: 4.5rem;
-    margin-left: 40%;
-}
+/* 
 .sobre-content h3{
     font-size: 2.6rem;
     margin-left: 38%;
     margin-bottom: 5%;
+} */
+#eu{ 
+    display: flex;
+    border-radius: 20%;
+    box-shadow: var(--main-color);
 }
