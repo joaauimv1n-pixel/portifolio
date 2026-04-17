@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello World 👋</h3>
+            <h1>Joaquim</h1>
+            <h3>Sou <span class="multiple-text"></span></h3>
+            <a href="#" class="btn">Download CV</a>
+             </div>
+        
+        <div class="home-img">
+            <img src="c:\Users\JoaquimPrado\Downloads\fc9e0b33-48b7-4f43-ae1d-5e13af5cdfcc.JPG" alt="" />
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+       
+        <div class="sobre-content">
+            <h2 class="heading">Sobre <span>mim</span></h2>
+            <h3>Desenvolvedor Web</h3>
+            <p>
+                Olá, me chamo Joaquim e tenho 20 anos. Tenho grande interesse pela área de tecnologia, onde venho desenvolvendo minhas habilidades desde cedo.
+Atualmente, estou em busca de oportunidades na área de TI e mantenho um foco constante em aprendizado e evolução profissional.
+Meu objetivo é crescer na área, enfrentando desafios e contribuindo com soluções eficientes e inovadoras para a empresa, enquanto adquiro novas experiências e conhecimentos.
+            </p>
+        </div>
+    </section>
+
+   
+        </div>
+    </section>
+    </section>
+
+    <section class="formacao" id="formacao">
+        <h2 class="heading">Minha <span>Formação</span></h2>
+        <div class="formacao-content">
+            <div class="formacao-box">
+                <img src="./img/ms.jpg" alt=".." class="formacao-img" />
+                <h3>Ensino Médio Completo</h3>
+                <p>Escola Estadual São Francisco — Concluído em 2023</p>
+            </div>
+            <div class="formacao-box">
+                <img src="./img/Imagem do WhatsApp de 2025-08-08 à(s) 17.30.59_ad637af3.jpg" alt=".." class="formacao-img" />
+                <h3>Curso Técnico de Desenvolvimento Sistemas</h3>
+                <p>Instituto Senac Hub Academy — Em progresso</p>
+            </div>
+             <div class="formacao-box">
+                <img src="./img/Imagem do WhatsApp de 2025-08-08 à(s) 17.30.59_ad637af3.jpg" alt=".." class="formacao-img" />
+                <h3>Business Intelligence com Power BI</h3>
+                <p>Instituto Senac Hub Academy — Concluido em 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2 class="heading">Contato</h2>
+        <form action="contato_composer.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="nome" placeholder="Nome" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="number" name="celular" placeholder="Celular" required />
+                <input type="text" name="assunto" placeholder="Assunto: " />
+                <textarea name="mensagem" cols="30" rows="10" placeholder="mensagem:"></textarea>
+                <button id="btn_enviar" type="submit" value="Enviar" class="btn">Enviar</button>
+            </div>
+        </form>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <p id="modal-message">Mensagem enviada!</p>
+                <button onclick="closeModal()">OK</button>
+            </div>
+        </div>
+    </section>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
