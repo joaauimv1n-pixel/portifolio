@@ -13,6 +13,7 @@
 } */
 #eu{ 
     display: flex;
+    height: 700Fpx;
     border-radius: 20%;
     box-shadow: var(--main-color);
 }
